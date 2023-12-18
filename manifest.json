@@ -1,0 +1,19 @@
+{
+    "name": "Job Apps Tracker",
+    "version": "1.0",
+    "description": "Parse application site and add info to spreadsheet",
+    "manifest_version": 3,
+    "oauth2": {
+        "client_id": "1036661311202-btum0i0bqofcti0hre7khlgqb0ftatu1.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/spreadsheets"
+        ]
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "identity",
+        "activeTab"
+    ]
+}
