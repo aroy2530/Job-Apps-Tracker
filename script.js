@@ -5,7 +5,7 @@ window.onload = function(){
   });
 };
 
-document.getElementById("add").addEventListener("click", addData);
+document.getElementById("addButton").addEventListener("click", addData);
 
 function addData() {
     company = document.getElementById("company").value;
@@ -43,7 +43,14 @@ function addData() {
           init)
           .then((response) => response.json())
           .then(function(data) {
-            // console.log(data);
+            addButton = document.getElementById("addButton");
+            addButton.textContent = "Added!";
+            addButton.disabled = true;
+            // after 2sec, change btn text back to Add
+            setTimeout(function() {
+              addButton.textContent = "Add";
+              addButton.disabled = false;
+            }, 2000);
           });
     });
   };
