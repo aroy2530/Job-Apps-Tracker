@@ -1,7 +1,13 @@
 {
     "name": "Job Apps Tracker",
     "version": "1.0",
-    "description": "Parse application site and add info to spreadsheet",
+    "description": "Record and add job application info to spreadsheet",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "manifest_version": 3,
     "oauth2": {
         "client_id": "1036661311202-btum0i0bqofcti0hre7khlgqb0ftatu1.apps.googleusercontent.com",
