@@ -46,6 +46,7 @@ function addData() {
             addButton = document.getElementById("addButton");
             addButton.textContent = "Added!";
             addButton.disabled = true;
+            
             // after 2sec, change btn text back to Add
             setTimeout(function() {
               addButton.textContent = "Add";
