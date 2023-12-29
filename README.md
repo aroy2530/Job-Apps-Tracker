@@ -3,4 +3,4 @@ I built a Chrome pop-up extension to quickly write details about job application
 
 ![Screenshot of extension](demo/screenshot.png)
 
-[Demo video](demo/demo.mpg4)
+[Demo video](demo/demo.mp4)
