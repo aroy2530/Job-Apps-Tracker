@@ -1,2 +1,6 @@
 # Job-Apps-Tracker
-Chrome popup extension that sends application data to a google spreadsheet.
+I built a Chrome pop-up extension to quickly write details about job applications to a Google spreadsheet. 
+
+![Screenshot of extension](demo/screenshot.png)
+
+[Demo video](demo/demo.mpg4)
